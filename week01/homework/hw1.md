@@ -1,5 +1,5 @@
 # EECS 201 HW 1
-uniqname: {{ your uniqname here }}
+uniqname: {{ dennli }}
 
 ## Question 1
 ``` 1
