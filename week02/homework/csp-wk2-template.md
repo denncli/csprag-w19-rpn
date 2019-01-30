@@ -473,30 +473,69 @@ uniqname:  dennli
 
 ## Question 2
 ``` 2
-answer_to_Q2_here
+git diff
 ```
 
 ## Question 3
 ``` 3
-answer_to_Q3_here
+t 8c6418001de1e43d75ce029d6757e5568ed65d37
+Author: Dennis Li <dennli@umich.edu>
+Date:   Wed Jan 30 17:54:03 2019 -0500
+
+    add gitignore
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..a866c26
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,2 @@
++*test
++*tests
+
+commit fb48936e2d472d0eaacf210a23b8fbd931d9e7e5
+Author: Dennis Li <dennli@umich.edu>
+Date:   Wed Jan 30 17:51:07 2019 -0500
+
+    add function stubs to p2.cpp
+
+diff --git a/p2.cpp b/p2.cpp
+index e69de29..ae360cd 100644
+--- a/p2.cpp
++++ b/p2.cpp
+@@ -0,0 +1,69 @@
++#include <cassert>
++#include "p2.h"
++
++int sum(list_t list) {
++    assert(false);
++}
++int product(list_t list) {
++    assert(false);
++}
++int accumulate(list_t list, int (*fn)(int, int), int identity){
++    assert(false);
++}
++
++list_t reverse(list_t list){
 ```
 
 ## Question 4
 ``` 4
-answer_to_Q4_here
+GNU nano
 ```
 
 ## Question 5
 ``` 5
-answer_to_Q5_here
+emacs
 ```
 
 ## Question 6
 ``` 6
-answer_to_Q6_here
+-nw opens emacs in the terminal. Without -nw, a window with a gui opens for emacs
 ```
 
 ## Question 7
 ``` 7
-answer_to_Q7_here
-```
+GIT_EDITOR
+``
