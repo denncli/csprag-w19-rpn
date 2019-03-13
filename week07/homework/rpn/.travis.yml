@@ -3,6 +3,3 @@ python:
   - "3.5"
 script:
   - python test_rpn.py
-branches:
-  only:
-    - master
