@@ -3,3 +3,4 @@ python:
   - "3.5"
 script:
   - python test_rpn.py
+  - week07/homework/rpn/test_rpn.py
